@@ -1,0 +1,42 @@
+{
+  "name": "rollup-plugin-stylint",
+  "version": "0.1.0",
+  "description": "Verify entry point and all imported files with Stylint",
+  "main": "dist/rollup-plugin-stylint.js",
+  "module": "dist/rollup-plugin-stylint.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandark7/rollup-plugin-stylint.git"
+  },
+  "keywords": [
+    "rollup",
+    "rollup-plugin",
+    "es2015",
+    "stylint",
+    "lint"
+  ],
+  "author": {
+    "name": "Andrew Smirnov",
+    "email": "sandark7@gmail.com",
+    "url": "https://github.com/sandark7"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandark7/rollup-plugin-stylint/issues"
+  },
+  "homepage": "https://github.com/sandark7/rollup-plugin-stylint#readme",
+  "dependencies": {
+    "rollup-pluginutils": "^2.0.1",
+    "stylint": "^1.5.9"
+  },
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  }
+}
