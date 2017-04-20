@@ -40,7 +40,6 @@ export default function stylint(options = {}) {
         }
       }).create({}, {
         config: options.configFile,
-        strict: options.strict,
         reporter: options.reporter
       });
     }
